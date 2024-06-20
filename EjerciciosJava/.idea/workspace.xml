@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c70f119-364d-4b9b-8bca-7a5661bc0ac4" name="Changes" comment="">
+    <list default="true" id="6c70f119-364d-4b9b-8bca-7a5661bc0ac4" name="Changes" comment="formateo cadenas">
+      <change afterPath="$PROJECT_DIR$/out/production/EjerciciosJava/Ejercicio47MetodosString/MetodosString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EjerciciosJava/FormatearCadenas/FormatoCadenasCaracteres.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EjerciciosJava/InvertirCadena/InvertirCadena.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EjerciciosJava/InvertirCadena/InvertirCadena.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +45,39 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Documentos_miller/Cursos/EjerciciosJava/EjerciciosJava/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FormatoCadenasCaracteres">
+  <component name="RunManager" selected="Application.ConversionCadenasCaracteres">
+    <configuration name="ConversionCadenasCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio48CadenaDeCaracteresEnMInusculasYMayusculas.ConversionCadenasCaracteres" />
+      <module name="EjerciciosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercicio48CadenaDeCaracteresEnMInusculasYMayusculas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormatoCadenasCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FormatearCadenas.FormatoCadenasCaracteres" />
       <module name="EjerciciosJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FormatearCadenas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertirCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InvertirCadena.InvertirCadena" />
+      <module name="EjerciciosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InvertirCadena.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,38 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LecturaDatosUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LecturaDatosUsuarioInpuStreanReader.LecturaDatosUsuario" />
+    <configuration name="MetodosString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio47MetodosString.MetodosString" />
       <module name="EjerciciosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LecturaDatosUsuarioInpuStreanReader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartesCadena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObtenerParteDeUnaCadena.PartesCadena" />
-      <module name="EjerciciosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ObtenerParteDeUnaCadena.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeparacionCaracter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sepracionCaracteres.SeparacionCaracter" />
-      <module name="EjerciciosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sepracionCaracteres.*" />
+          <option name="PATTERN" value="Ejercicio47MetodosString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConversionCadenasCaracteres" />
+        <item itemvalue="Application.MetodosString" />
+        <item itemvalue="Application.InvertirCadena" />
         <item itemvalue="Application.FormatoCadenasCaracteres" />
         <item itemvalue="Application.IterarObjeto" />
-        <item itemvalue="Application.PartesCadena" />
-        <item itemvalue="Application.SeparacionCaracter" />
-        <item itemvalue="Application.LecturaDatosUsuario" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,47 @@
       <option name="project" value="LOCAL" />
       <updated>1718897701828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="formateo cadenas">
+      <option name="closed" value="true" />
+      <created>1718898512020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718898512020</updated>
+    </task>
+    <task id="LOCAL-00008" summary="formateo cadenas">
+      <option name="closed" value="true" />
+      <created>1718900181981</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718900181981</updated>
+    </task>
+    <task id="LOCAL-00009" summary="invertir cadenas y palabras">
+      <option name="closed" value="true" />
+      <created>1718900283583</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718900283583</updated>
+    </task>
+    <task id="LOCAL-00010" summary="invertir cadenas">
+      <option name="closed" value="true" />
+      <created>1718901582666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718901582666</updated>
+    </task>
+    <task id="LOCAL-00011" summary="conviertiendo cadena de caracteres de minusculas a mayusculas">
+      <option name="closed" value="true" />
+      <created>1718902352026</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718902352026</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -199,7 +242,11 @@
     <MESSAGE value="ejercicio uso bufferReader" />
     <MESSAGE value="update todos los ejercicios hasta el momento" />
     <MESSAGE value="partes de una cadena" />
-    <option name="LAST_COMMIT_MESSAGE" value="partes de una cadena" />
+    <MESSAGE value="invertir cadenas y palabras" />
+    <MESSAGE value="invertir cadenas" />
+    <MESSAGE value="formateo cadenas" />
+    <MESSAGE value="conviertiendo cadena de caracteres de minusculas a mayusculas" />
+    <option name="LAST_COMMIT_MESSAGE" value="conviertiendo cadena de caracteres de minusculas a mayusculas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
